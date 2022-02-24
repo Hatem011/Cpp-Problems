@@ -1,0 +1,14 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	string namePerson1,nameDad1,namePerson2,nameDad2;
+	cin >>namePerson1>>nameDad1>>namePerson2>>nameDad2;
+	if (nameDad1 == nameDad2){
+		cout << "ARE Brothers" << endl;
+	}
+	else{
+		cout << "NOT" << endl;
+	}
+}
